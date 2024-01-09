@@ -16,10 +16,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Instala python 3.10
+      - name: Instala python 3.11.3
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.11.3'
 
       - name: Instala os pacotes do requirements_dev.txt
         run: |
@@ -39,10 +39,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Instala python 3.10
+      - name: Instala python 3.11.3
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.11.3'
 
       - name: Instala os pacotes do requirements_dev.txt
         run: |
@@ -62,10 +62,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Instala python 3.10
+      - name: Instala python 3.11.3
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.11.3'
 
       - name: Instala os pacotes do requirements_dev.txt
         run: |
